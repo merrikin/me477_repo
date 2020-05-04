@@ -1,0 +1,7 @@
+<launch> 
+	<node name="service_server" pkg="merrikin_services"
+		type="service_server.py" output="screen"/>
+	<node name="service_client" pkg="merrikin_services"
+		type="service_client.py" output="screen'/>
+</launch>
+
