@@ -2,5 +2,5 @@
 	<node name="server" pkg="merrikin_actions"
 		type="fancy_action_server.py" output="screen"/>
 	<node name="client" pkg="merrikin_actions"
-		type="fancy_action_client.py" output="screen'/>
+		type="fancy_action_client.py" output="screen"/>
 </launch>

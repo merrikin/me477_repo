@@ -1,4 +1,4 @@
-#!/usr/bin.env python
+#!/usr/bin/env python
 import rospy
 from merrikin_services.srv import WordCount
 import sys
