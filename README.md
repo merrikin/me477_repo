@@ -46,7 +46,7 @@ this, ensure &nbsp;&nbsp;&nbsp;you are still in the repository's main directory 
 
 &nbsp;&nbsp;&nbsp;You will need to do this for each new terminal window you open to prevent frustrating sourcing errors. If you are pretty sure &nbsp;&nbsp;&nbsp;you have your system setup right but you're unable to run or launch packages, go back to the repository's main directory and &nbsp;&nbsp;&nbsp;run that little piece of magic. It could save you an hour or hair-pulling. 
 
->> Once you have the repository sourced you should be able to run the enclosed packages. Descriptions of the packages can be found further down.  In case you've forgotten how, here is how to run an ROS package.
+&nbsp;&nbsp;&nbsp;Once you have the repository sourced you should be able to run the enclosed packages. Descriptions of the packages can &nbsp;&nbsp;&nbsp;be found further down. In case you've forgotten how, here is how to run an ROS package.
 - Navigate to the repository's main directory: _me477_repo_ 
    - Source the setup.bash file as described above 
    - Open a new terminal window (__Ctrl+Alt+T__) 
@@ -54,8 +54,8 @@ this, ensure &nbsp;&nbsp;&nbsp;you are still in the repository's main directory 
      - This is your ROS brain, so to speak. It coordinates all ROS functions that are subsequently deployed
    - In the first terminal, or another if you wish (having ensured that you did your sourcing, last reminder) you can begin to run or launch packages. 
      - To run a package use the following syntax: `rosrun <package_name> <program_name> [args]` \
-       >Example: `rosrun merrikin_topics topic_subscriber.py`
+       &nbsp;&nbsp;&nbsp;Example: `rosrun merrikin_topics topic_subscriber.py`
      - To launch a set of packages use the following syntax: `roslaunch <package_name> <launch_file_name> [args]` \
-       >Example: `roslaunch merrikin_services serrvices.launch`
+       &nbsp;&nbsp;&nbsp;Example: `roslaunch merrikin_services serrvices.launch`
        
 ### Packages Included in this Repository
