@@ -29,7 +29,7 @@ Once you have the files locally, assuming you are running a form of Ubuntu, open
 
 &nbsp;&nbsp;&nbsp; `python --version`
 
-&nbsp;&nbsp;&nbsp;Ensure the following Python packages are available on your platform. You can 'pip' them and if they already exist, no &nbsp;&nbsp;&nbsp;harm, no foul.
+&nbsp;&nbsp;&nbsp;Ensure the following Python packages are available on your platform. You can 'pip' them and if they already exist, no harm, no &nbsp;&nbsp;&nbsp;foul.
 
 &nbsp;&nbsp;&nbsp; `pip insall empy` 
 
@@ -44,7 +44,7 @@ this, ensure &nbsp;&nbsp;&nbsp;you are still in the repository's main directory 
 
 &nbsp;&nbsp;&nbsp; `source devel/setup.bash`
 
-&nbsp;&nbsp;&nbsp;You will need to do this for each new terminal window you open to prevent frustrating sourcing errors. If you are pretty sure &nbsp;&nbsp;&nbsp;you have your system setup right but you're unable to run or launch packages, go back to the repository's main directory &nbsp;&nbsp;&nbsp;and run that little piece of magic. It could save you an hour or hair-pulling. 
+&nbsp;&nbsp;&nbsp;You will need to do this for each new terminal window you open to prevent frustrating sourcing errors. If you are pretty sure &nbsp;&nbsp;&nbsp;you have your system setup right but you're unable to run or launch packages, go back to the repository's main directory and &nbsp;&nbsp;&nbsp;run that little piece of magic. It could save you an hour or hair-pulling. 
 
 >> Once you have the repository sourced you should be able to run the enclosed packages. Descriptions of the packages can be found further down.  In case you've forgotten how, here is how to run an ROS package.
 - Navigate to the repository's main directory: _me477_repo_ 
