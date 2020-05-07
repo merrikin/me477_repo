@@ -24,7 +24,8 @@ To best run these ROS packages utilize a computer with the Ubuntu_18.04.4_LTE op
 To run the packages in this repository first [clone](https://help.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository), [download](https://superuser.com/questions/1309683/how-do-i-download-my-whole-repository-from-gitlab) or [fork](https://help.github.com/en/enterprise/2.13/user/articles/fork-a-repo) the repository so that you have the file system locally on your operating platform. 
 
 Once you have the files locally, assuming you are running a form of Ubuntu, open up a new Terminal to the repository file and perform the following checks:
-> #### Python:
+
+#### &nbsp;&nbsp;&nbsp; Python:
 &nbsp;&nbsp;&nbsp;Make sure you are running Python version 2.7.17 or newer. To determine what Python version you are running submit the &nbsp;&nbsp;&nbsp;following to your terminal: 
 
 &nbsp;&nbsp;&nbsp; `python --version`
@@ -38,7 +39,8 @@ Once you have the files locally, assuming you are running a form of Ubuntu, open
 &nbsp;&nbsp;&nbsp; `pip insall catkin_pkg` 
 
 &nbsp;&nbsp;&nbsp; `sudo apt install rosbash` 
-> #### ROS:
+
+#### &nbsp;&nbsp;&nbsp;ROS:
 &nbsp;&nbsp;&nbsp;It is very important to remember to source the _setup.bash_ file associated with the repository's packages. To do 
 this, ensure &nbsp;&nbsp;&nbsp;you are still in the repository's main directory and submit the following command to the Terminal:
 
@@ -57,5 +59,51 @@ this, ensure &nbsp;&nbsp;&nbsp;you are still in the repository's main directory 
        &nbsp;&nbsp;&nbsp;Example: `rosrun merrikin_topics topic_subscriber.py`
      - To launch a set of packages use the following syntax: `roslaunch <package_name> <launch_file_name> [args]` \
        &nbsp;&nbsp;&nbsp;Example: `roslaunch merrikin_services serrvices.launch`
+ - End a program with __Ctrl+C__
        
 ### Packages Included in this Repository
+
+#### &nbsp;&nbsp;&nbsp; merrikin_actions
+Files:
+&nbsp;&nbsp;&nbsp; [fancy_action_client.py](https://github.com/merrikin/me477_repo/blob/master/merrikin_actions/src/fancy_action_client.py)
+&nbsp;&nbsp;&nbsp; [fancy_action_server.py](https://github.com/merrikin/me477_repo/blob/master/merrikin_actions/src/fancy_action_server.py)
+
+Function:
+&nbsp;&nbsp;&nbsp;Blep
+
+Inputs:
+&nbsp;&nbsp;&nbsp;Blep
+
+Outputs
+&nbsp;&nbsp;&nbsp;Blep
+
+#### &nbsp;&nbsp;&nbsp; merrikin_services
+Files:
+&nbsp;&nbsp;&nbsp; [service_client.py](https://github.com/merrikin/me477_repo/blob/master/merrikin_services/src/service_client.py)
+&nbsp;&nbsp;&nbsp; [service_serrver.py](https://github.com/merrikin/me477_repo/blob/master/merrikin_services/src/service_server.py)
+
+Function:
+&nbsp;&nbsp;&nbsp;Blep
+
+Inputs:
+&nbsp;&nbsp;&nbsp;Blep
+
+Outputs:
+&nbsp;&nbsp;&nbsp;Blep
+
+#### &nbsp;&nbsp;&nbsp; merrikin_topics
+Files:
+&nbsp;&nbsp;&nbsp; [doubler.py](https://github.com/merrikin/me477_repo/blob/master/merrikin_topics/src/doubler.py)
+&nbsp;&nbsp;&nbsp; [message_publisher.py](https://github.com/merrikin/me477_repo/blob/master/merrikin_topics/src/message_publisher.py)
+&nbsp;&nbsp;&nbsp; [message_subscriber.py](https://github.com/merrikin/me477_repo/blob/master/merrikin_topics/src/message_subscriber.py)
+&nbsp;&nbsp;&nbsp; [topic_publisher.py](https://github.com/merrikin/me477_repo/blob/master/merrikin_topics/src/topic_publisher.py)
+&nbsp;&nbsp;&nbsp; [topic_subscriber.py](https://github.com/merrikin/me477_repo/blob/master/merrikin_topics/src/topic_subscriber.py)
+
+Function:
+&nbsp;&nbsp;&nbsp;Blep
+
+Inputs:
+&nbsp;&nbsp;&nbsp;Blep
+
+Outputs:
+&nbsp;&nbsp;&nbsp;Blep
