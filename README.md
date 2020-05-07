@@ -2,10 +2,10 @@
 This is a repository by Christian Merrikin, a student of Saint Martin's School of Engineering. Spring semester, 2020.
 ## Background:
 ### Course Description
-ME477 is a course in embeded computing utilizing C code on the MyRio platform. In case you have not 
+ME477 is a course in embedded computing utilizing C code on the MyRio platform. In case you have not 
 heard, there was a COVID-19 epidemic that shut down many aspects of civilized life in the U.S., 
-including all in-person acedemic activities. Therefore, because it was not feasible to continue
-the ACTUAL ME477 coursework, the second half of the course focussed on an introduction to the 
+including all in-person academic activities. Therefore, because it was not feasible to continue
+the ACTUAL ME477 coursework, the second half of the course focused on an introduction to the 
 ROS system.
 ### Course Details
 This course was taught by Dr. Rico Picone. Much of his teaching material can be found on his [webpage](http://ricopic.one/courses/robotics_mini_course).
@@ -69,7 +69,7 @@ Files:
 &nbsp;&nbsp;&nbsp; [fancy_action_server.py](https://github.com/merrikin/me477_repo/blob/master/merrikin_actions/src/fancy_action_server.py)
 
 Function:
-&nbsp;&nbsp;&nbsp;This package demonstrates the usefullness of being able to do minor computational or otherwise administrative tasks with a single node. A ROS node with an action provides feedback to its subscribers for the duration of the action. 
+&nbsp;&nbsp;&nbsp;This package demonstrates the usefulness of being able to do minor computational or otherwise administrative tasks with a single node. A ROS node with an action provides feedback to its subscribers for the duration of the action. 
 
 Inputs:
 &nbsp;&nbsp;&nbsp;Action servers require action files that define the action to be completed. The [action](https://github.com/merrikin/me477_repo/tree/master/merrikin_actions/action) files are located in the package directory, above src/ and include a `<name>.action` file. 
@@ -89,7 +89,7 @@ Inputs:
 &nbsp;&nbsp;&nbsp;In the case of merrikin_services, the client supplies the server with a string of words and the server utilizes its service module, [WordCount.srv](https://github.com/merrikin/me477_repo/blob/master/merrikin_services/srv/WordCount.srv) to count the words. To enter a string of words for the server to count add them as the argument after the `rosrun` or `roslaunch` command.
 
 Outputs:
-&nbsp;&nbsp;&nbsp;Once the server has completed its task, counting the words, it sends back an interger corresponding to the count and the client prints it to the display.
+&nbsp;&nbsp;&nbsp;Once the server has completed its task, counting the words, it sends back an integer corresponding to the count and the client prints it to the display.
 
 #### &nbsp;&nbsp;&nbsp; merrikin_topics
 Files:
