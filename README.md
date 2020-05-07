@@ -48,7 +48,7 @@ this, ensure &nbsp;&nbsp;&nbsp;you are still in the repository's main directory 
 
 &nbsp;&nbsp;&nbsp;You will need to do this for each new terminal window you open to prevent frustrating sourcing errors. If you are pretty sure &nbsp;&nbsp;&nbsp;you have your system setup right but you're unable to run or launch packages, go back to the repository's main directory and &nbsp;&nbsp;&nbsp;run that little piece of magic. It could save you an hour or hair-pulling. 
 
-&nbsp;&nbsp;&nbsp;Once you have the repository sourced you should be able to run the enclosed packages. Descriptions of the packages can &nbsp;&nbsp;&nbsp;be found further down. In case you've forgotten how, here is how to run an ROS package.
+&nbsp;&nbsp;&nbsp;Once you have the repository sourced you should be able to run the enclosed packages. Descriptions of the packages can be &nbsp;&nbsp;&nbsp;found further down. In case you've forgotten how, here is how to run an ROS package.
 - Navigate to the repository's main directory: _me477_repo_ 
    - Source the setup.bash file as described above 
    - Open a new terminal window (__Ctrl+Alt+T__) 
