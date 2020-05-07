@@ -25,21 +25,26 @@ To run the packages in this repository first [clone](https://help.github.com/en/
 
 Once you have the files locally, assuming you are running a form of Ubuntu, open up a new Terminal to the repository file and perform the following checks:
 > #### Python:
->> Make sure you are running Python version 2.7.17 or newer. To determine what Python version you are running submit the following to your terminal:
->>>>> `python --version`
+&nbsp;&nbsp;&nbsp;Make sure you are running Python version 2.7.17 or newer. To determine what Python version you are running submit the &nbsp;&nbsp;&nbsp;following to your terminal: 
 
->> Ensure the following Python packages are available on your platform. You can 'pip' them and if they already exist, no harm, no foul.
+&nbsp;&nbsp;&nbsp; `python --version`
 
->>>>> `pip insall empy` \
->>>>> `pip insall pyyaml` \
->>>>> `pip insall catkin_pkg` \
->>>>> `sudo apt install rosbash` (not Python specific, but helpful none the less)
+&nbsp;&nbsp;&nbsp;Ensure the following Python packages are available on your platform. You can 'pip' them and if they already exist, no &nbsp;&nbsp;&nbsp;harm, no foul.
 
+&nbsp;&nbsp;&nbsp; `pip insall empy` 
+
+&nbsp;&nbsp;&nbsp; `pip insall pyyaml` 
+
+&nbsp;&nbsp;&nbsp; `pip insall catkin_pkg` 
+
+&nbsp;&nbsp;&nbsp; `sudo apt install rosbash` 
 > #### ROS:
->> It is very important to remember to source the _setup.bash_ file associated with the repository's packages. To do this, ensure you are still in the repository's main directory and submit the following command to the Terminal:
->>>>> `source devel/setup.bash`
+&nbsp;&nbsp;&nbsp;It is very important to remember to source the _setup.bash_ file associated with the repository's packages. To do 
+this, ensure &nbsp;&nbsp;&nbsp;you are still in the repository's main directory and submit the following command to the Terminal:
 
->> You will need to do this for each new terminal window you open to prevent frustrating sourcing errors. If you are pretty sure you have your system setup right but you're unable to run or launch packages, go back to the repository's main directory and run that little piece of magic. It could save you an hour or hair-pulling. 
+&nbsp;&nbsp;&nbsp; `source devel/setup.bash`
+
+&nbsp;&nbsp;&nbsp;You will need to do this for each new terminal window you open to prevent frustrating sourcing errors. If you are pretty sure &nbsp;&nbsp;&nbsp;you have your system setup right but you're unable to run or launch packages, go back to the repository's main directory &nbsp;&nbsp;&nbsp;and run that little piece of magic. It could save you an hour or hair-pulling. 
 
 >> Once you have the repository sourced you should be able to run the enclosed packages. Descriptions of the packages can be found further down.  In case you've forgotten how, here is how to run an ROS package.
 - Navigate to the repository's main directory: _me477_repo_ 
