@@ -105,5 +105,5 @@ Function:
 Inputs:
 &nbsp;&nbsp;&nbsp;When merrikin_topics is launched a publisher and subscriber begin. There are no input arguments.
 
-Outputs:
+Outputs: 
 &nbsp;&nbsp;&nbsp;Once the publisher and subscriber are running the user will see a counter printing to the terminal window.
