@@ -58,7 +58,7 @@ this, ensure &nbsp;&nbsp;&nbsp;you are still in the repository's main directory 
      - To run a package use the following syntax: `rosrun <package_name> <program_name> [args]` \
        &nbsp;&nbsp;&nbsp;Example: `rosrun merrikin_topics topic_subscriber.py`
      - To launch a set of packages use the following syntax: `roslaunch <package_name> <launch_file_name> [args]` \
-       &nbsp;&nbsp;&nbsp;Example: `roslaunch merrikin_services serrvices.launch`
+       &nbsp;&nbsp;&nbsp;Example: `roslaunch merrikin_services services.launch`
  - End a program with __Ctrl+C__
        
 ### Packages Included in this Repository
@@ -69,13 +69,13 @@ Files:
 &nbsp;&nbsp;&nbsp; [fancy_action_server.py](https://github.com/merrikin/me477_repo/blob/master/merrikin_actions/src/fancy_action_server.py)
 
 Function:
-&nbsp;&nbsp;&nbsp;Blep
+&nbsp;&nbsp;&nbsp;This package demonstrates the usefullness of being able to do minor computational or otherwise administrative tasks with a single node. A ROS node with an action provides feedback to its subscribers for the duration of the action. 
 
 Inputs:
-&nbsp;&nbsp;&nbsp;Blep
+&nbsp;&nbsp;&nbsp;Action servers require action files that define the action to be completed. The [action](https://github.com/merrikin/me477_repo/tree/master/merrikin_actions/action) files are located in the package directory, above src/ and include a `<name>.action` file. 
 
-Outputs
-&nbsp;&nbsp;&nbsp;Blep
+Outputs:
+&nbsp;&nbsp;&nbsp;In the case of merrikin_actions, the action server completes an action and outputs it to the client.
 
 #### &nbsp;&nbsp;&nbsp; merrikin_services
 Files:
@@ -83,13 +83,13 @@ Files:
 &nbsp;&nbsp;&nbsp; [service_serrver.py](https://github.com/merrikin/me477_repo/blob/master/merrikin_services/src/service_server.py)
 
 Function:
-&nbsp;&nbsp;&nbsp;Blep
+&nbsp;&nbsp;&nbsp;This package demonstrates how to complete a service utilizing a ROS node. A service differs from an action because the subscribed client must wait for the end result of the requested service.  
 
 Inputs:
-&nbsp;&nbsp;&nbsp;Blep
+&nbsp;&nbsp;&nbsp;In the case of merrikin_services, the client supplies the server with a string of words and the server utilizes its service module, [WordCount.srv](https://github.com/merrikin/me477_repo/blob/master/merrikin_services/srv/WordCount.srv) to count the words. To enter a string of words for the server to count add them as the argument after the `rosrun` or `roslaunch` command.
 
 Outputs:
-&nbsp;&nbsp;&nbsp;Blep
+&nbsp;&nbsp;&nbsp;Once the server has completed its task, counting the words, it sends back an interger corresponding to the count and the client prints it to the display.
 
 #### &nbsp;&nbsp;&nbsp; merrikin_topics
 Files:
@@ -100,10 +100,10 @@ Files:
 &nbsp;&nbsp;&nbsp; [topic_subscriber.py](https://github.com/merrikin/me477_repo/blob/master/merrikin_topics/src/topic_subscriber.py)
 
 Function:
-&nbsp;&nbsp;&nbsp;Blep
+&nbsp;&nbsp;&nbsp;The purpose of this package is to demonstrate the connection between publishers and subscribers through topics and subscriptions.
 
 Inputs:
-&nbsp;&nbsp;&nbsp;Blep
+&nbsp;&nbsp;&nbsp;When merrikin_topics is launched a publisher and subscriber begin. There are no input arguments.
 
 Outputs:
-&nbsp;&nbsp;&nbsp;Blep
+&nbsp;&nbsp;&nbsp;Once the publisher and subscriber are running the user will see a counter printing to the terminal window.
